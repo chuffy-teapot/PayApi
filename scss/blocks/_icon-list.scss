@@ -1,0 +1,27 @@
+.icon__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.icon__item~.icon__item{
+  margin-left: 25px;
+}
+
+.icon__link{
+  display: inline-block;
+}
+
+.icon__img{
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon__img path{
+  transition: fill .2s ease;
+}
+
+.icon__img:hover path{
+  fill: #da6d97;
+}

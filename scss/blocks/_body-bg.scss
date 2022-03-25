@@ -1,0 +1,30 @@
+body{
+  background-image: url("../../img/hero-bg.png");
+  background-position: top -300px right calc(50% - 570px);
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-color: #edf3f8;
+}
+
+@media (max-width:1060px) {
+
+}
+
+@media (max-width:870px) {
+  body{
+    background-position: top -600px right 50%;
+    background-size: 1000px 1000px;
+  }
+}
+
+@media (max-width:660px) {
+  
+}
+
+@media (max-width:500px) {
+
+}
+
+@media (max-width:420px) {
+  
+}

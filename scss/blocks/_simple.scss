@@ -1,0 +1,84 @@
+#simple__section{
+  padding: 140px 0;
+  background-image: url("../../img/simple-bg.png");
+  background-position: top 0 right 0;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.simple{
+  display: flex;
+  justify-content: space-between;
+}
+
+.simple__info{
+  margin: auto 0;
+  max-width: 445px;
+}
+
+.simple__title{
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #36536b;
+}
+
+.simple__text{
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+
+.simple__img{
+  width: 263px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.simple__img:nth-child(1){
+  margin-right: 40px;
+}
+
+
+@media (max-width:1060px) {
+  .simple__info{
+    max-width: 350px;
+  }
+
+  .simple__img{
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (max-width:870px) {
+  .simple{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .simple__info{
+    margin-top: 50px;
+  }
+
+  .simple__img:nth-child(1){
+    margin-right: 20px;
+  }
+}
+
+@media (max-width:500px) {
+  .simple__title{
+    font-size: 34px;
+  }
+
+  .simple__img{
+    width: 130px;
+    height: auto;
+  }
+
+  .simple__img:nth-child(1){
+    margin-right: 10px;
+  }
+}

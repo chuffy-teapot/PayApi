@@ -1,0 +1,41 @@
+.features__list{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.features__item{
+  max-width: 350px;
+  text-align: center;
+}
+
+.features__img{
+  width: 106px;
+  height: 106px;
+}
+
+.features_title{
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #36536B;
+}
+
+.features__text{
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #6C8294;
+}
+
+
+@media (max-width:660px){
+  .features__list{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__item{
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+#contact__section{
+  padding: 95px 0;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__title{
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  color: #36536b;
+}
+
+.contact__form{
+  margin: auto 0;
+}
+
+.contact__btn{
+  right: 0;
+}
+
+@media (max-width:870px) {
+  .contact{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact__title{
+    font-size: 34px;
+  }
+
+  .contact__form{
+    margin-top: 20px;
+  }
+}
